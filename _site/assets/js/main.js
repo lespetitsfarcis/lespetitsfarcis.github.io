@@ -12,29 +12,6 @@ $(document).ready(function($) {
 	};
 	loader();
 
-	// var carousel = function() {
-	// 	$('.owl-carousel').owlCarousel({
-	// 		loop: true,
-	// 		margin: 10,
-	// 		nav: true,
-	// 		stagePadding: 5,
-	// 		nav: false,
-	// 		navText: ['<span class="icon-chevron-left">', '<span class="icon-chevron-right">'],
-	// 		responsive:{
-	// 			0:{
-	// 				items: 1
-	// 			},
-	// 			600:{
-	// 				items: 2
-	// 			},
-	// 			1000:{
-	// 				items: 3
-	// 			}
-	// 		}
-	// 	});
-	// };
-	// carousel();
-
 	// scroll
 	var scrollWindow = function() {
 		$(window).scroll(function(){
@@ -85,7 +62,6 @@ $(document).ready(function($) {
 				$('.ftco-number').each(function(){
 					var $this = $(this),
 						num = $this.data('number');
-						console.log(num);
 					$this.animateNumber(
 					  {
 					    number: num,
@@ -100,8 +76,6 @@ $(document).ready(function($) {
 
 	}
 	counter();
-
-
 
 	var contentWayPoint = function() {
 		var i = 0;
@@ -158,12 +132,8 @@ $(document).ready(function($) {
 		  }
 		});
 		$('body').on('activate.bs.scrollspy', function () {
-		  console.log('nice');
 		})
 	};
 	OnePageNav();
-
-
-
 });
 
