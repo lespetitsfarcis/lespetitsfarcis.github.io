@@ -135,4 +135,11 @@ $(document).ready(function($) {
 		})
 	};
 	OnePageNav();
+
+	// add custom font async
+	$(function() {
+	    var fonts = 'https://fonts.googleapis.com/css?family=Raleway';
+	    if (document.createStyleSheet) document.createStyleSheet(fonts);
+	    else $("head").append($("<link rel='stylesheet' href='"+ fonts +"' type='text/css' media='screen' />"));
+	});
 });
