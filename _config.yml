@@ -1,5 +1,4 @@
 title: Les petits farcis
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Espace de coworking avec cour intérieure et salle de détente. Rejoignez-nous à Nice, près de la gare du sud!
-baseurl: "" # the subpath of your site, e.g. /blog
-app_url: "https://sleepy-plains-67254.herokuapp.com" # the base hostname & protocol for your site, e.g. http://example.com
+app_url: "https://sleepy-plains-67254.herokuapp.com"
