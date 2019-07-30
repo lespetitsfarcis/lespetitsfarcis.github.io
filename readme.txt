@@ -1,1 +1,0 @@
-https://themewagon.com/themes/free-bootstrap-4-one-page-template/
