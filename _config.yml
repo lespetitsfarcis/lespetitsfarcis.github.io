@@ -2,3 +2,5 @@ title: Les petits farcis
 description: >-
   Espace de coworking avec cour intérieure et salle de détente. Rejoignez-nous à Nice, près de la gare du sud!
 app_url: "https://sleepy-plains-67254.herokuapp.com"
+
+theme: jekyll-theme-cayman
