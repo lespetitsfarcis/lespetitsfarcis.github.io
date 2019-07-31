@@ -20,7 +20,15 @@ $(document).ready(function ($) {
         autoplay: true,
         autoplaySpeed: 4000,
         fade: true,
-        cssEase: 'linear'
+        cssEase: 'linear',
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    arrows: false
+                }
+            }
+        ]
     });
 
     var $grid = $('.grid').masonry({
