@@ -1467,7 +1467,6 @@ textarea {
   z-index: 9999;
   top: 0;
   right: 0;
-  padding-top: 20px;
   -webkit-transform: translateX(100%);
   -ms-transform: translateX(100%);
   transform: translateX(100%);
@@ -1482,8 +1481,8 @@ textarea {
     -ms-transform: translateX(0);
     transform: translateX(0);
   }
-  img{
-    padding-left: 20px;
+  img.logo{
+    margin-bottom: 40px;
   }
   .c-menu__close {
     display: block;
