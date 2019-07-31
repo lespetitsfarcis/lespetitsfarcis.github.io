@@ -663,6 +663,10 @@ h1 {
     left: 50%;
     top: -270px;
     transform: translateX(-50%);
+    @media (max-width: 576px) {
+      top: -240px;
+      max-width: 220px;
+    }
   }
   .bg {
     h2 {
@@ -1058,6 +1062,9 @@ textarea {
 #section-contact {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+  @media (max-width: 575.98px) {
+    padding-top: 60px !important;
+  }
 }
 
 .ftco-uppercase {
