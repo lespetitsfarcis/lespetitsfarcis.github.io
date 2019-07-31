@@ -299,6 +299,10 @@ h1 {
     -webkit-animation: round 1.5s ease-in-out;
     animation: round 1.5s ease-in-out;
     box-sizing: border-box;
+    @media (max-width: 575.98px) {
+      width: 300px;
+      height: 300px;
+    }
     .inner-round {
       position: relative;
       top: 40%;
@@ -737,6 +741,7 @@ textarea {
 
 .ftco-section,
 .ftco-footer {
+  overflow: hidden;
   padding: 7em 0 7em 0;
   &.ftco-slant {
     padding: 9em 0 10em 0;
