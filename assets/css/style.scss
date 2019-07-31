@@ -48,6 +48,18 @@ h1 {
   color: $primary !important;
 }
 
+header{
+  @media screen and (max-width: 991px) {
+    position: fixed;
+    display: block;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: white;
+  }
+}
+
 .ftco-navbar-light {
   &.transparent {
     display: none;
