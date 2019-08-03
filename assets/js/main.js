@@ -202,6 +202,13 @@ $(document).ready(function ($) {
     };
     OnePageNav();
 
+
+    // Grid modal handler
+    $('.grid-picture').click(function(evt){
+        var imageSrc = $(this).find('img').first().prop('src');
+        $('#modal-image').prop('src', imageSrc);
+    });
+
     // add custom font async
     $(function () {
         var fonts = 'https://fonts.googleapis.com/css?family=Raleway';
