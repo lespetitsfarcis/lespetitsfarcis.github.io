@@ -215,4 +215,20 @@ $(document).ready(function ($) {
         if (document.createStyleSheet) document.createStyleSheet(fonts);
         else $("head").append($("<link rel='stylesheet' href='" + fonts + "' type='text/css' media='screen' />"));
     });
+
+    // typeform js
+    (function () {
+        var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement,
+            gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/";
+        if (!gi.call(d, id)) {
+            js = ce.call(d, "script");
+            js.id = id;
+            js.src = b + "embed.js";
+            q = gt.call(d, "script")[0];
+            q.parentNode.insertBefore(js, q)
+        }
+    })();
+
+    // add google maps in placeholder
+    jQuery('<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11536.558315862429!2d7.2611978!3d43.7076483!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x30abd6b2c5f3658a!2sLes+Petits+Farcis!5e0!3m2!1sfr!2sfr!4v1564476928594!5m2!1sfr!2sfr" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen> </iframe>').appendTo('#gmaps-iframe-placeholder');
 });
