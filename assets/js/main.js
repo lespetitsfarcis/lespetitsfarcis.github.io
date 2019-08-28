@@ -206,7 +206,8 @@ $(document).ready(function ($) {
     // Grid modal handler
     $('.grid-picture').click(function(evt){
         var imageSrc = $(this).find('img').first().prop('src');
-        $('#modal-image').prop('src', imageSrc);
+        var bigImageSrc = imageSrc.replace("/assets/images/mosaic/", "/assets/images/mosaic/big/");
+        $('#modal-image').prop('src', bigImageSrc);
     });
 
     // add custom font async
