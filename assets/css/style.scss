@@ -833,13 +833,11 @@ textarea {
     text-transform: uppercase;
   }
   .ftco-price-per {
+    color: white !important;
     font-size: 70px;
     sup {
       font-size: 20px;
       top: -1.5em;
-    }
-    strong {
-      color: $black;
     }
     span {
       font-size: 20px;
