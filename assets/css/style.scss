@@ -1145,27 +1145,14 @@ textarea {
 
 .slideshow{
   .slick-prev:before, .slick-next:before {
-    font-family: 'Font Awesome 5 Free', FontAwesome;
     font-size: 40px;
     line-height: 1;
     color: white;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  .slick-prev:before {
-    content: "\f053";
-  }
-  [dir="rtl"] .slick-prev:before {
-    content: "\f054";
-  }
-  .slick-next:before {
-    content: "\f054";
-  }
-  [dir="rtl"] .slick-next:before {
-    content: "\f053";
-  }
   .slick-next {
-    right: 25px;
+    right: 50px;
   }
   .slick-prev {
     left: 25px;
