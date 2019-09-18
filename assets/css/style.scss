@@ -851,6 +851,33 @@ textarea {
   }
 }
 
+#section-events {
+  position: relative;
+  background-color: #F2F2F2;
+  h3 {
+    font-size: 17px;
+    font-weight: strong;
+    text-transform: uppercase;
+  }
+  img.abs{
+    position: absolute;
+    display: block;
+    z-index: 777;
+    right: 53%;
+    top: 10px;
+    transform: translateX(-50%);
+    width: 116px;
+  }
+  .bg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .row.left{
+    margin-left: 0;
+  }
+}
+
 .ftco-footer-social {
   li {
     list-style: none;
@@ -990,7 +1017,6 @@ textarea {
 }
 
 #section-counter {
-  background-color: #F2F2F2;
   .ftco-counter {
     padding: 15px;
     .ftco-number {
@@ -1135,6 +1161,7 @@ textarea {
 }
 
 #section-cta {
+  background: #F2F2F2;
   h2 {
     font-size: 1.125rem;
     text-transform: uppercase;

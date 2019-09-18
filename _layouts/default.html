@@ -35,7 +35,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146770310-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-146770310-1');
@@ -65,14 +69,14 @@
         <div class="container">
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item active"><a href="#section-home" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="#section-services" class="nav-link">Services</a></li>
                     <li class="nav-item"><a href="#section-pricing" class="nav-link">Pricing</a></li>
+                    <li class="nav-item"><a href="#section-about" class="nav-link">About</a></li>
                     <li class="nav-item logo"><a href="#section-pricing" class="nav-link">
                         <img src="/assets/images/logo-scroll.jpeg?{{site.time | date: '%s%N'}}" class="img-fluid logo"></a>
                     </li>
-                    <li class="nav-item"><a href="#section-about" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="#section-community" class="nav-link">Community</a></li>
+                    <li class="nav-item"><a href="#section-events" class="nav-link">Events</a></li>
                     <li class="nav-item"><a href="#section-contact" class="nav-link">Contact</a></li>
                 </ul>
             </div>
@@ -82,15 +86,18 @@
 
 <section class="ftco-cover" id="section-home">
     <div class="slideshow h-100">
-        <div class="slide" style="background-image: url(/assets/images/slideshow/bureau4.jpg?{{site.time | date: '%s%N'}})">
+        <div class="slide"
+             style="background-image: url(/assets/images/slideshow/bureau4.jpg?{{site.time | date: '%s%N'}})">
         </div>
-        <div class="slide" style="background-image: url(/assets/images/slideshow/loisir2.jpg?{{site.time | date: '%s%N'}})">
+        <div class="slide"
+             style="background-image: url(/assets/images/slideshow/loisir2.jpg?{{site.time | date: '%s%N'}})">
         </div>
     </div>
     <div class="logo">
         <div class="round text-center">
             <div class="inner-round">
-                <img src="/assets/images/logo-transparent-background.png?{{site.time | date: '%s%N'}}" class="img-fluid">
+                <img src="/assets/images/logo-transparent-background.png?{{site.time | date: '%s%N'}}"
+                     class="img-fluid">
                 <h1>Espace de Coworking</h1>
                 <section id="section05" class="demo">
                     <a href="#section-services" class="scroll"><span></span></a>
@@ -115,7 +122,8 @@
         <div class="wrapper">
             <div class="row">
                 <div class="col-lg-4 mb-5 ftco-animate">
-                    <figure><img src="/assets/images/bureau-principal.jpg?{{site.time | date: '%s%N'}}" alt="bureaux" class="img-fluid" width="700"
+                    <figure><img src="/assets/images/bureau-principal.jpg?{{site.time | date: '%s%N'}}" alt="bureaux"
+                                 class="img-fluid" width="700"
                                  height="467">
                     </figure>
                     <div class="p-3 inner-content">
@@ -135,7 +143,8 @@
                 </div>
 
                 <div class="col-lg-4 mb-5 ftco-animate">
-                    <figure><img src="/assets/images/cour4.jpg?{{site.time | date: '%s%N'}}" alt="cour intérieure" class="img-fluid" width="700"
+                    <figure><img src="/assets/images/cour4.jpg?{{site.time | date: '%s%N'}}" alt="cour intérieure"
+                                 class="img-fluid" width="700"
                                  height="467"></figure>
                     <div class="p-3 inner-content">
                         <h3 class="h4">La cour</h3>
@@ -303,7 +312,8 @@
             <div class="grid-sizer"></div>
             <div class="grid-item">
                 <div class="ovrly10 grid-picture">
-                    <img src="/assets/images/mosaic/bureau5.jpg?{{site.time | date: '%s%N'}}" class="img-fluid" alt="...">
+                    <img src="/assets/images/mosaic/bureau5.jpg?{{site.time | date: '%s%N'}}" class="img-fluid"
+                         alt="...">
                     <div class="ovrly"></div>
                     <div class="buttons">
                         <a href="#" class="fa fa-search popin" data-toggle="modal"
@@ -333,7 +343,8 @@
             </div>
             <div class="grid-item">
                 <div class="ovrly10 grid-picture">
-                    <img src="/assets/images/mosaic/vueensemble.jpg?{{site.time | date: '%s%N'}}" class="img-fluid" alt="...">
+                    <img src="/assets/images/mosaic/vueensemble.jpg?{{site.time | date: '%s%N'}}" class="img-fluid"
+                         alt="...">
                     <div class="ovrly"></div>
                     <div class="buttons">
                         <a href="#" class="fa fa-search popin" data-toggle="modal"
@@ -356,7 +367,8 @@
             </div>
             <div class="grid-item">
                 <div class="ovrly10 grid-picture">
-                    <img src="/assets/images/mosaic/console.jpg?{{site.time | date: '%s%N'}}" class="img-fluid" alt="...">
+                    <img src="/assets/images/mosaic/console.jpg?{{site.time | date: '%s%N'}}" class="img-fluid"
+                         alt="...">
                     <div class="ovrly"></div>
                     <div class="buttons">
                         <a href="#" class="fa fa-search popin" data-toggle="modal"
@@ -366,7 +378,8 @@
             </div>
             <div class="grid-item">
                 <div class="ovrly10 grid-picture">
-                    <img src="/assets/images/mosaic/travail-detente.jpg?{{site.time | date: '%s%N'}}" class="img-fluid" alt="...">
+                    <img src="/assets/images/mosaic/travail-detente.jpg?{{site.time | date: '%s%N'}}" class="img-fluid"
+                         alt="...">
                     <div class="ovrly"></div>
                     <div class="buttons">
                         <a href="#" class="fa fa-search popin" data-toggle="modal"
@@ -376,7 +389,8 @@
             </div>
             <div class="grid-item">
                 <div class="ovrly10 grid-picture">
-                    <img src="/assets/images/mosaic/bonbon.jpg?{{site.time | date: '%s%N'}}" class="img-fluid" alt="...">
+                    <img src="/assets/images/mosaic/bonbon.jpg?{{site.time | date: '%s%N'}}" class="img-fluid"
+                         alt="...">
                     <div class="ovrly"></div>
                     <div class="buttons">
                         <a href="#" class="fa fa-search popin" data-toggle="modal"
@@ -396,6 +410,140 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                     <img src="" id="modal-image" class="img-fluid" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section ftco-events" id="section-events">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center ftco-animate">
+                <h2 class="text-uppercase ftco-uppercase">Events</h2>
+                <div class="row justify-content-center mb-5">
+                    <div class="col-md-7">
+                        <p class="lead"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-md-6 ftco-animate bg" style="background-image: url(/assets/images/cake-1839134_1280.jpg);">
+                <div class="row h-100 align-content-end">
+                    <div class="col-12 pl-4 pr-4 bg-white">
+                        <h3 class="mt-4 mb-4">Petit-déjeuner découverte</h3>
+                        <p>Venez découvrir la communauté des Petits Farcis autour d'un bon café, de
+                            croissants et de joyeux farcis. Une belle occasion de se rencontrer !</p>
+                        <p><a href="mailto:contact@lespetitsfarcis.space?subject=Petits déjeuner découverte" class="btn abs btn-secondary btn-sm btn-light">Inscription</a>
+                        </p>
+                        <div class="row">
+                            <div class="col-12 mb-4">
+                                <i class="far fa-calendar"></i> Mercredi 25 Septembre à 9h30 - Ouvert à tous sur inscription
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 ftco-animate pl-4 pr-0">
+                <div class="col-md-12 mb-4 ftco-animate">
+                    <div class="h-100 w-100">
+                        <div class="row">
+                            <div class="col-6 bg" style="background-image: url(/assets/images/clown-2853227_640.jpg);">
+                            </div>
+                            <div class="col-6 pt-4 pb-3 bg-white">
+                                <h3 class="mb-4">Atelier théâtre</h3>
+                                <p>Carole Cenciai propose un atelier théâtre, impros, jeux de rôles pour les Farcis joueurs en quête d'un moment funny.</p>
+                                <div class="row">
+                                    <div class="col-12 mt-2 mb-2">
+                                        <i class="far fa-calendar"></i> Deux fois par mois
+                                        <br>
+                                        <i class="fas fa-users"></i> Réservé aux farcis
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 ftco-animate">
+                    <div class="h-100 w-100">
+                        <div class="row">
+                            <div class="col-6 bg" style="background-image: url(/assets/images/kevin.png);">
+                            </div>
+                            <div class="col-6 pt-4 pb-3 bg-white">
+                                <h3 class="mb-4">Atelier compta/fisca</h3>
+                                <p>Kevin Leroy, expert-comptable - commissaire aux comptes, propose des ateliers de
+                                    compta/fisca/juridique ouvert à tous.</p>
+                                <p><a href="mailto:contact@lespetitsfarcis.space?subject=Inscription Atelier compta/fisca" class="btn abs btn-secondary btn-sm btn-light">Insciprition</a>
+                                </p>
+                                <div class="row">
+                                    <div class="col-12 mt-2 mb-2">
+                                        <i class="far fa-calendar"></i> Comming soon ...
+                                        <br>
+                                        <i class="fas fa-users"></i> Ouvert à tous sur inscription
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-md-6 ftco-animate pl-0 pr-0">
+                <div class="col-md-12 mb-4 ftco-animate">
+                    <div class="h-100 w-100">
+                        <div class="row">
+                            <div class="col-6 bg" style="background-image: url(/assets/images/IMG_6364.jpeg);">
+                            </div>
+                            <div class="col-6 pt-4 pb-3 bg-white">
+                                <h3 class="mb-4">Sorties randonnées</h3>
+                                <p>Après le taff, le réconfort ! Pour les farcis aventuriers, le week-end, c'est sortie rando.</p>
+                                </p>
+                                <div class="row">
+                                    <div class="col-12 mt-2 mb-2">
+                                        <i class="far fa-calendar"></i> Le samedi généralement !
+                                        <br>
+                                        <i class="fas fa-users"></i> Réservé aux farcis marcheurs
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 ftco-animate">
+                    <div class="h-100 w-100">
+                        <div class="row">
+                            <div class="col-6 bg" style="background-image: url(/assets/images/mosaic/baby.jpg);">
+                            </div>
+                            <div class="col-6 pt-4 pb-3 bg-white">
+                                <h3 class="mb-4">Les Pauses BabyFoot</h3>
+                                <p>Que serait une journée sans babyfoot ! Plus qu'une institution, il crée
+                                    l'event chaque jour</p>
+                                <div class="row">
+                                    <div class="col-12 mt-2 mb-2">
+                                        <i class="far fa-calendar"></i> Tous les jours
+                                        <br>
+                                        <i class="fas fa-users"></i> Réservé aux farcis
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 ftco-animate bg pl-4">
+                <div class="row h-100 align-content-end left" style="background-image: url(/assets/images/beer-428121_640.jpg);">
+                    <div class="col-12 pl-4 pr-4 bg-white">
+                        <h3 class="mt-4 mb-4">L'After-Work du Jeudi</h3>
+                        <p>Tous les jeudi soirs, les Petits Farcis partagent une bonne bière dans une ambiance
+                            conviviale ...</p>
+                        <div class="row">
+                            <div class="col-12 mb-4">
+                                <i class="far fa-calendar"></i> Tous les jeudis soir - Réservé aux farcis
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -462,15 +610,19 @@
     </div>
 </section>
 
+
+
 <section class="ftco-cover" id="section-cta">
     <img src="/assets/images/side-cards/bureau1.jpg?{{site.time | date: '%s%N'}}" class="left abs image-animate">
     <img src="/assets/images/side-cards/tampon.png?{{site.time | date: '%s%N'}}" class="tampon image-animate">
     <img src="/assets/images/side-cards/bureau5.jpg?{{site.time | date: '%s%N'}}" class="right abs image-animate">
-    <img src="/assets/images/side-cards/cathy-victor.jpg?{{site.time | date: '%s%N'}}" class="right abs last image-animate">
+    <img src="/assets/images/side-cards/cathy-victor.jpg?{{site.time | date: '%s%N'}}"
+         class="right abs last image-animate">
     <div class="container">
         <div class="row align-items-center justify-content-center text-center ftco-vh-100">
             <div class="col-12 col-md-10 col-lg-5">
-                <img src="/assets/images/logo-transparent-background.png?{{site.time | date: '%s%N'}}" class="img-fluid">
+                <img src="/assets/images/logo-transparent-background.png?{{site.time | date: '%s%N'}}"
+                     class="img-fluid">
                 <h2>Toi aussi tu veux devenir un Farci ?</h2>
                 <section id="section05" class="demo">
                     <a href="#section-contact" class="scroll"><span></span></a>
@@ -482,7 +634,7 @@
 </section>
 
 
-<section class="ftco-section bg-light" id="section-contact">
+<section class="ftco-section" id="section-contact">
     <div class="container">
         <div class="row no-gutters align-items-center ftco-animate">
             <div class="d-none d-sm-block col-md-6 mb-md-0 mb-5">
@@ -492,7 +644,7 @@
                 <h3 class="h3 mb-4">Contact</h3>
                 <p>Nous serions ravis de vous accueillir au <a href="https://goo.gl/maps/XGqJedUGR7NdcQF7A"
                                                                target="_blank">7 rue d'autun à Nice</a></p>
-                <p>Pour toute demande d'informations <a href="mailto:contact@lespetitsfarcis.space">contact@lespetitsfarcis.space </a>
+                <p>Pour toute demande d'informations <a href="mailto:contact@lespetitsfarcis.space">contact@lespetitsfarcis.space - 09 72 14 94 25</a>
                 </p>
                 <div class="typeform-widget" data-url="https://peillonamaury.typeform.com/to/vQbn17"
                      data-transparency="50" data-hide-headers=true data-hide-footer=true
@@ -525,7 +677,8 @@
             </div>
             <div class="col-12">
                 <a href="#section-pricing" class="nav-link">
-                    <img src="/assets/images/logo-scroll.jpeg?{{site.time | date: '%s%N'}}" class="img-fluid logo d-block mx-auto">
+                    <img src="/assets/images/logo-scroll.jpeg?{{site.time | date: '%s%N'}}"
+                         class="img-fluid logo d-block mx-auto">
                 </a>
             </div>
 
