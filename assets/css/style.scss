@@ -1116,6 +1116,48 @@ textarea {
   }
 }
 
+#section-farcis{
+  text-align: center;
+  a{
+    padding: 0 8px;
+  }
+  h2{
+    margin-bottom: 80px;
+  }
+  .slideshow-farcis{
+    position: relative;
+  }
+  .slick-prev, .slick-next{
+    top: inherit;
+    bottom: -60px !important;
+    transform: none;
+  }
+  .slick-prev:before, .slick-next:before{
+    color: black;
+  }
+  .slick-prev{
+    left:48%;
+  }
+  .slick-next{
+    right: 48%;
+  }
+  .bg-image{
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+  }
+  span{
+    display: block;
+    color: black;
+    margin-top: 8px;
+  }
+}
+
 .ftco-uppercase {
   letter-spacing: .1em;
   font-size: 30px;

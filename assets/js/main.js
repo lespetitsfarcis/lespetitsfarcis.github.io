@@ -31,6 +31,24 @@ $(document).ready(function ($) {
         ]
     });
 
+    $('.slideshow-farcis').slick({
+        infinite: true,
+        speed: 700,
+        slidesToShow: 5,
+        arrows: true,
+        adaptiveHeight: true,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    arrows: false
+                }
+            }
+        ]
+    });
+
     var $grid = $('.grid').masonry({
         itemSelector: '.grid-item',
         percentPosition: true,
