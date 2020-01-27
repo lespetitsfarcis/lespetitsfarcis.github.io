@@ -47,13 +47,23 @@
 
     <!-- Facebook Pixel Code -->
     <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
             'https://connect.facebook.net/en_US/fbevents.js');
         fbq('init', '2732596533458156');
         fbq('track', 'PageView');
@@ -68,7 +78,11 @@
     </script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-90936228-3');
@@ -99,12 +113,12 @@
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a href="#section-services" class="nav-link">Services</a></li>
-                    <li class="nav-item"><a href="#section-pricing" class="nav-link">Pricing</a></li>
-                    <li class="nav-item"><a href="#section-about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#section-pricing" class="nav-link">Tarifs</a></li>
+                    <li class="nav-item"><a href="#section-about" class="nav-link">A propos</a></li>
                     <li class="nav-item logo"><a href="#section-pricing" class="nav-link">
                         <img src="/assets/images/logo-scroll.jpeg?{{site.time | date: '%s%N'}}" class="img-fluid logo"></a>
                     </li>
-                    <li class="nav-item"><a href="#section-farcis" class="nav-link">Community</a></li>
+                    <li class="nav-item"><a href="#section-farcis" class="nav-link">Communauté</a></li>
                     <li class="nav-item"><a href="#section-events" class="nav-link">Events</a></li>
                     <li class="nav-item"><a href="#section-contact" class="nav-link">Contact</a></li>
                 </ul>
@@ -351,7 +365,14 @@
             <h2 class="text-uppercase ftco-uppercase">Les Farcis</h2>
         </div>
     </div>
-    <div class="slideshow-farcis">
+    <div class="row">
+        <div class="col-md-12 mb-5 text-center ftco-animate">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rI8h-bEBThE" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="slideshow-farcis mt-5">
         <div class="slide">
             <div class="row align-items-center">
                 <div class="col-12">
@@ -593,7 +614,8 @@
                     <span>Marie R.</span>
                     Directrice Artistique
                     <p>
-                        <a href="https://www.behance.net/gallery/49148593/Logotype-Reutter-von-Reutlingen" target="_blank">
+                        <a href="https://www.behance.net/gallery/49148593/Logotype-Reutter-von-Reutlingen"
+                           target="_blank">
                             <i class="far fa-building"></i>
                         </a>
                     </p>
